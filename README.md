@@ -34,6 +34,10 @@ conda activate psychopy
 pip install psychopy 
 ```
 
+### Install Presentation (neurobehavioral systems)
+https://neurobs.com/
+Check email for software licenses from Brad
+
 ### Install Mobaxterm for file transfer
 
 
