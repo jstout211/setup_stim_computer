@@ -1,5 +1,6 @@
 # setup_stim_computer
-Recipe to setting up task delivery computer
+Recipe to setting up task delivery computer <br>
+Open a bplogix ticket for IT excemptions <br>
 
 ### Matlab
 Download matlab: https://www.mathworks.com/downloads/ <br>
@@ -20,8 +21,10 @@ channel_priority: strict
 ```
 
 ### Psychopy 
-Install psychopy: https://www.psychopy.org/download.html <br>
-Requires Git:  
+Install psychopy: https://www.psychopy.org/download.html <br><br>
+Requires Git:  https://gitforwindows.org/ <br>
+&nbsp;&nbsp;Use git bash / unix<>win conversions / add to all shells / use system certificate
+
 ```
 conda create -n psychopy pip python=3.11   #currently highest supported py version (09/25)
 conda activate psychopy
