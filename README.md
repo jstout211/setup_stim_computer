@@ -23,7 +23,10 @@ channel_priority: strict
 ### Psychopy 
 Install psychopy: https://www.psychopy.org/download.html <br><br>
 Requires Git:  https://gitforwindows.org/ <br>
-&nbsp;&nbsp;Use git bash / unix<>win conversions / add to all shells / use system certificate
+&nbsp;&nbsp;Use git bash / unix<>win conversions / add to all shells / use system certificate <br>
+Requires C++ build tools: https://visualstudio.microsoft.com/downloads/#title-build-tools-for-visual-studio-2022 <br>
+&nbsp;&nbsp;Download installer and add C++ and other build tools (can't remember which ones) <br>
+
 
 ```
 conda create -n psychopy pip python=3.11   #currently highest supported py version (09/25)
