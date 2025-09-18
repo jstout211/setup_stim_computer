@@ -6,6 +6,12 @@ Open a bplogix ticket for IT excemptions <br>
 Download matlab: https://www.mathworks.com/downloads/ <br>
 Install using nimh email address w/ sitewide license <br>
 
+#### Psychtoolbox for matlab: 
+http://psychtoolbox.org/download.html#Windows  <br>
+may need to use mobaxterm for gstreamer download - required install for display to work w/ psychopy <br>
+wget https://gstreamer.freedesktop.org/data/pkg/windows/1.22.12/msvc/gstreamer-1.0-msvc-x86_64-1.22.12.msi <br>
+
+
 ### Install Miniconda 
 Download miniconda .... <br>
 Install for all users and make it systemwide py <br>
