@@ -48,6 +48,18 @@ conda create -n psychopy pip python=3.11   #currently highest supported py versi
 conda activate psychopy
 pip install psychopy 
 ```
+##### Install parallel port drivers
+Look up brand and model (startech seems to work reliably for us), download driver <br>
+Install drivers >> manual >> find path to driver <br>
+
+##### Find parallel port address (for pcie based ppt card)
+control panel >> multifunction adapters >> Controller >> resources Tab >> Setting (first number in range)
+
+##### Install drivers into the conda environment
+pyschopy will complain about the parrallel port <br>
+Download inpout from: https://www.highrez.co.uk/scripts/download.asp?package=InpOutBinaries   <br>
+Copy those files into the conda/env/<<MYENV>>/bin  folder    <br>
+Additional troubleshooting was discussed here: https://discourse.psychopy.org/t/parallel-port-issues-w-windows-11/45464/15
 
 ### Install Presentation (neurobehavioral systems)
 https://neurobs.com/ <br>
