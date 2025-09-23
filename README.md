@@ -35,7 +35,15 @@ Inst
 Requires `.NET SP1 3.5 `
 
 
-### Psychopy 
+### Psychopy
+If prereqs below are installed:
+```
+conda install -n <<NAME>> python=3.10 ipython pip -y
+conda activate <<NAME>>
+pip install psychopy
+```
+`copy inpout dlls from C:/ProgramData/miniconda3/envs/psychopytest/bin/  to new envs/<<NAME>>/bin/  `
+
 Install psychopy: https://www.psychopy.org/download.html <br><br>
 Requires Git:  https://gitforwindows.org/ <br>
 &nbsp;&nbsp;Use git bash / unix<>win conversions / add to all shells / use system certificate <br>
