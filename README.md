@@ -79,6 +79,20 @@ Check email for software licenses from Brad
 ### Install filezilla
 
 
+# Conda transfers
+Source computer: 
+```
+do conda-pack and save output as .tar.gz >> I wrote a .bat script to do this; currently all of the environments are being saved in the Desktop
+Target computer, admin account:
+copy the .tar.gz somewhere, such as ~/Downloads/
+in the C:\Users\megadmin\miniconda3\envs  create a new folder with the to-be environment name. In this case, hv_psychopy : mkdir -p hv_psychopy
+untar the folder created in the source computer: tar -xzf C:\Users\megadmin\Downloads\hv_psychopy.tar.gz -C hv_psychopy
+go to  C:\Users\megadmin\miniconda3\envs\hv_psychopy and run .\Scripts\activate.bat (I think this is the same as doing conda activate hv_psychopy)
+then run .\Scripts\conda-unpack.bat
+Add the libraries for parallel port to work:
+in the C:\Users\megadmin\miniconda3\envs\hv_psychopy create a folder called bin
+copy/paste the .dll files from C:\Users\megadmin\miniconda3\envs\bin to C:\Users\megadmin\miniconda3\envs\hv_psychopy\bin
+```
 
 
 
