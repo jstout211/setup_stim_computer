@@ -93,6 +93,9 @@ Add the libraries for parallel port to work:
 in the C:\Users\megadmin\miniconda3\envs\hv_psychopy create a folder called bin
 copy/paste the .dll files from C:\Users\megadmin\miniconda3\envs\bin to C:\Users\megadmin\miniconda3\envs\hv_psychopy\bin
 ```
+# Correcting pixel trigger
+NVidia control panel >> Display >> Adjust desktop size and position >> set to no scaling
+
 # For 32 bit python=2.7
 before installing python, go into variable explorer CONDA_FORCE_32BIT=1
 
