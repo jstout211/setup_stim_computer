@@ -1,3 +1,8 @@
+# Fix Lockout
+open .\megadmin account at the login <br>
+open a commandline as Admin <br>
+`net user "YourUsername" /active:yes`
+
 # setup_stim_computer
 Recipe to setting up task delivery computer <br>
 Open a bplogix ticket for IT excemptions <br>
